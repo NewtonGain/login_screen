@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123517908713",
+    "project_id": "login-c740f",
+    "storage_bucket": "login-c740f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123517908713:android:97e08ffbe9154c9c33a278",
+        "android_client_info": {
+          "package_name": "com.example.login_screen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123517908713-3rmk9dh9s09r5vshfde7mjjip3ggh8u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0gxgqEWZsfFJeHKcpVzmL6kj8VhWlVrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123517908713-3rmk9dh9s09r5vshfde7mjjip3ggh8u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

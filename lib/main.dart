@@ -1,26 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 import 'login.dart';
 
-
-int main() {
-  
-  runApp(MyApp());
-
-  return 0;
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Button Widget",
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Button Widget"),
-          centerTitle: true,
-        ),
         body: Login(),
       ),
     );
